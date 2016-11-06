@@ -1,0 +1,17 @@
+enabled: true
+from: wiki@hagels.net
+from_name: 'Hagels Net Wiki Kontakt'
+to: benjamin@hagels.net
+to_name: 'Benjamin Hagels'
+mailer:
+  engine: mail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    user: master
+    password: 'rLz6h#31#'
+  sendmail:
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: false
